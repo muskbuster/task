@@ -1,0 +1,16 @@
+katla:
+  #type: messageIdMultisigIsm
+  threshold: 1
+  validators:
+    - "0x7c7A2298db2baC6d120cd1e0182A6e6E8257adCd"
+opti:
+  #type: messageIdMultisigIsm
+  threshold: 1
+  validators:
+    - "0x7c7A2298db2baC6d120cd1e0182A6e6E8257adCd"
+arbisep:
+  #type: messageIdMultisigIsm
+  threshold: 1
+  validators:
+    - "0x7c7A2298db2baC6d120cd1e0182A6e6E8257adCd"
+

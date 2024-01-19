@@ -1,0 +1,22 @@
+katla:
+  name: katla
+  chainId: 167008
+  domainId: 167008
+  protocol: ethereum
+  rpcUrls:
+    - http: https://rpc.katla.taiko.xyz
+opti:
+  name: opti
+  chainId: 11155420
+  domainId: 11155420
+  protocol: ethereum
+  rpcUrls:
+    - http: https://sepolia.optimism.io
+arbisep:
+  name: arbisep
+  chainId: 421614
+  domainId: 421614
+  protocol: ethereum
+  rpcUrls:
+    - http: https://sepolia-rollup.arbitrum.io/rpc
+
