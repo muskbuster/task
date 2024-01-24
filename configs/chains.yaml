@@ -5,6 +5,10 @@ katla:
   protocol: ethereum
   rpcUrls:
     - http: https://rpc.katla.taiko.xyz
+  nativeToken:
+    name: Eth # String
+    symbol: ETH # String
+    decimals: 18 # Number
 opti:
   name: opti
   chainId: 11155420

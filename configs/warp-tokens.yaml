@@ -1,0 +1,12 @@
+base:
+  chainName: katla
+  type: native
+  address: "0x0000000000000000000000000000000000000000"
+  isNft: false
+synthetics:
+  - chainName: opti
+  - chainName: arbisep
+  - chainName: mumbai
+  - chainName: scrollsepolia
+  - chainName: sepolia
+

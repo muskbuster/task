@@ -1,0 +1,8 @@
+{
+  "chainId": 167008,
+  "name": "Eth",
+  "symbol": "ETH",
+  "decimals": 18,
+  "type": "native",
+  "hypNativeAddress": "0x2288397F4DE2332F6c1159Af1E3B2b2059467f8D"
+}

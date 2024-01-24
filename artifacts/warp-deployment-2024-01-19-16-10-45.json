@@ -1,0 +1,26 @@
+{
+  "katla": {
+    "router": "0x2288397F4DE2332F6c1159Af1E3B2b2059467f8D",
+    "tokenType": "native"
+  },
+  "opti": {
+    "router": "0x64892c15ffeB206Ade14B0b222044f3A2211236E",
+    "tokenType": "synthetic"
+  },
+  "arbisep": {
+    "router": "0x890A155017dc9088686A10f84570d0BfA94bF9Fb",
+    "tokenType": "synthetic"
+  },
+  "mumbai": {
+    "router": "0x43A4EF0E1bF2F0F425F32d60682dDcAe3Cda1Fac",
+    "tokenType": "synthetic"
+  },
+  "scrollsepolia": {
+    "router": "0x43A4EF0E1bF2F0F425F32d60682dDcAe3Cda1Fac",
+    "tokenType": "synthetic"
+  },
+  "sepolia": {
+    "router": "0x946298064A12004d83254B2dBF75c421Ef8A9758",
+    "tokenType": "synthetic"
+  }
+}
