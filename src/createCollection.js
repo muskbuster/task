@@ -34,7 +34,7 @@ async function main() {
         isCollection: true,
     }).sendAndConfirm(umi);
     console.log(collection);
-    const leafOwner = keypair.publicKey;
+    const leafOwner = "8hyJYWnfiTSaf9yThVQKnATqX9Uahqa44YgSxKXnKLGd";
     const { signature } = await mintV1(umi, {
         leafOwner,
         metadata: {
