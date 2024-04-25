@@ -34,7 +34,7 @@ async function main() {
 console.log("collection created");
 
     const leafOwner = publicKey('8hyJYWnfiTSaf9yThVQKnATqX9Uahqa44YgSxKXnKLGd');
-    const mint= publicKey('CGFtpQRVkW82CPwp29Rv6riPjvo18MS9qABd5b8fvAcD');
+    const mint= publicKey('2hgEvXbXqxUVdj56pLM4UDyHdYtFpTPTp8cTRiFrqfbL');
 
 
     const { signature } = await mintToCollectionV1(umi, {
@@ -42,8 +42,8 @@ console.log("collection created");
         merkleTree: pubkey,
         collectionMint:mint,
         metadata: {
-            name: 'My Compressed NFT',  
-            uri: 'https://example.com/my-cnft.json',
+            name: 'Tea',  
+            uri: 'https://raw.githubusercontent.com/Rahul-Prasad-07/Foundry/main/Metadata.json',
             sellerFeeBasisPoints: 500, // 5%
             collection: { key: mint, verified: false },
             creators: [
@@ -54,7 +54,7 @@ console.log("collection created");
     }).sendAndConfirm(umi);
   
  
-    const leaf = await parseLeafFromMintV1Transaction(umi, signature);
+    const leaf = await parseLeafFromMintToCollectionV1Transaction(umi, signature);
     const [assetId, bump] = findLeafAssetIdPda(umi, { merkleTree: pubkey, leafIndex: leaf.nonce });
     umi.use(dasApi());
     const rpcAsset = await umi.rpc.getAsset(assetId);
