@@ -43,7 +43,7 @@ console.log("collection created");
         collectionMint:mint,
         metadata: {
             name: 'Tea',  
-            uri: 'https://raw.githubusercontent.com/Rahul-Prasad-07/Foundry/main/Metadata.json',
+            uri: 'https://raw.githubusercontent.com/Foundry/main/Metadata.json',
             sellerFeeBasisPoints: 500, // 5%
             collection: { key: mint, verified: false },
             creators: [
